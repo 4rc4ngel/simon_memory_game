@@ -12,19 +12,22 @@ body {
 
 .simon-board {
   position: absolute;
-  width: 600px;
-  height: 600px;
+
+  width: 640px;
+  height: 640px;
   background-color: #000;
   border-radius: 50%;
   border: 10px solid black;
 }
 
 .segment {
+  margin: 10px;
   width: 300px;
   height: 300px;
   float: left;
-  /* border: 5px solid black; */
 }
+
+/* Game segments */
 
 #top-left {
   border-top-left-radius: 300px;
@@ -51,10 +54,10 @@ body {
 .inner-circle {
   position: absolute;
   background-color: silver;
-  border: 10px solid black;
+  border: 20px solid black;
   height: 340px;
   width: 340px;
   border-radius: 340px;
-  top: 135px;
-  left: 130px;
+  top: 140px;
+  left: 140px;
 }
