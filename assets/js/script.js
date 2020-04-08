@@ -1,23 +1,29 @@
 // Variables
 
+let gameArr = [];
+let playerArr = [];
 let powerOn = false;
 let sound = false;
 let win = false;
-let score = 0;
 
 const onSwitch = document.getElementById('onSwitch');
 const soundToggle = document.getElementById('sound');
 const startBtn = document.getElementById('start-btn');
-let scoreCounter = document.getElementById('score');
+const green = document.getElementById('green');
+const red = document.getElementById('red');
+const yellow = document.getElementById('yellow');
+const blue = document.getElementById('blue');
+const scoreCounter = document.getElementById('score');
 
 // Event Listeners
 
-onSwitch.addEventListener('change', function () {
-  if (powerOn === false) {
+onSwitch.addEventListener('click', function (event) {
+  if (onSwitch.checked == true) {
     powerOn = true;
-    scoreCounter = scoreCounter.innerText = score;
-  } else if (powerOn === true) {
+    scoreCounter.innerHTML = '-';
+  } else {
     powerOn = false;
+    scoreCounter.innerHTML = '';
   }
 });
 
@@ -45,3 +51,5 @@ function resetGame() {
   win = false;
   score = 0;
 }
+
+function flash() {}

@@ -34,22 +34,22 @@ body {
 
 /* Game segments */
 
-#top-left {
+#green {
   border-top-left-radius: 300px;
   background-color: green;
 }
 
-#top-right {
+#red {
   border-top-right-radius: 300px;
   background-color: red;
 }
 
-#bottom-left {
+#yellow {
   border-bottom-left-radius: 300px;
   background-color: yellow;
 }
 
-#bottom-right {
+#blue {
   border-bottom-right-radius: 300px;
   background-color: blue;
 }
