@@ -36,22 +36,22 @@ body {
 
 #green {
   border-top-left-radius: 300px;
-  background-color: green;
+  background-color: darkgreen;
 }
 
 #red {
   border-top-right-radius: 300px;
-  background-color: red;
+  background-color: darkred;
 }
 
 #yellow {
   border-bottom-left-radius: 300px;
-  background-color: yellow;
+  background-color: goldenrod;
 }
 
 #blue {
   border-bottom-right-radius: 300px;
-  background-color: blue;
+  background-color: darkblue;
 }
 
 /* Inner Circle */
