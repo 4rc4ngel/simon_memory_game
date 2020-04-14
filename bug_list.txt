@@ -4,5 +4,5 @@ De-buggin list
 2. When WIN is dsiplayed breaks out of element.  X
 3. Start button is obstructed by a div.  X
 4. Add rules slider.
-5. Seems to have bug in safari, sounds not playing correctly.
+5. Seems to have bug in safari and android internet, sounds not playing correctly.
 
