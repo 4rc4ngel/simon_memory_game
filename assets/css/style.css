@@ -107,7 +107,7 @@ body {
   color: red;
 }
 
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .heading h1 {
     font-size: 3rem;
   }

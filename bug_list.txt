@@ -1,6 +1,6 @@
 De-buggin list
 
-1. Not Responsive on mobile device.
+1. Not Responsive on mobile device. X
 2. When WIN is dsiplayed breaks out of element.  X
 3. Start button is obstructed by a div.  X
 4. Add rules slider.
