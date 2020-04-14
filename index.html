@@ -35,34 +35,35 @@
       </p>
     </div> -->
     <!-- Container -->
+
+    <!-- Rules -->
+
+    <!-- Game Board -->
+
     <div class="container">
-      <!-- Rules -->
+      <div class="simon-board">
+        <!-- Game segments -->
+        <div class="segment" id="green"></div>
+        <div class="segment" id="red"></div>
+        <div class="segment" id="yellow"></div>
+        <div class="segment" id="blue"></div>
+        <div class="inner-circle">
+          <div>
+            <h2>SIMON</h2>
 
-      <!-- Game Board -->
-      <div class="display-block">
-        <div class="simon-board">
-          <!-- Game segments -->
-          <div class="segment" id="green"></div>
-          <div class="segment" id="red"></div>
-          <div class="segment" id="yellow"></div>
-          <div class="segment" id="blue"></div>
-          <div class="inner-circle">
-            <div>
-              <h2>SIMON</h2>
-
-              <label for="on-btn">POWER</label>
-              <input type="checkbox" id="on-btn" />
-              <button id="start-btn">START</button>
-              <input type="checkbox" id="strict" />
-              <label for="strict">STRICT</label>
-            </div>
-            <div class="score">
-              <p id="count"></p>
-            </div>
+            <label for="on-btn">POWER</label>
+            <input type="checkbox" id="on-btn" />
+            <button id="start-btn">START</button>
+            <input type="checkbox" id="strict" />
+            <label for="strict">STRICT</label>
+          </div>
+          <div class="score">
+            <p id="count"></p>
           </div>
         </div>
       </div>
     </div>
+
     <script src="assets/js/script.js"></script>
   </body>
 </html>
