@@ -160,7 +160,7 @@ body {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .heading h1 {
     font-size: 2rem;
   }
