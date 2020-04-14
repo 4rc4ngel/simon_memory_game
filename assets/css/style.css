@@ -1,23 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:400,700&display=swap');
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   background-color: #333;
   font-family: 'Dosis', sans-serif;
   color: #eee;
 }
 
+.heading {
+  text-align: center;
+}
+
+.heading h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+
+.heading h3 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.heading-rules {
+  margin-top: 300px;
+  margin-left: 50px;
+  float: left;
+  width: 30%;
+}
+
 .container {
-  position: relative;
-  height: 100vh;
-  width: 600px;
-  margin: 150px auto;
+  display: flex;
+  height: 620px;
+  width: 620px;
+  margin: 0 auto;
+  margin-top: 100px;
 }
 
 .simon-board {
-  position: absolute;
-
+  position: relative;
   width: 600px;
   height: 600px;
   background-color: #000;
@@ -29,6 +50,10 @@ body {
   margin: 10px;
   width: 280px;
   height: 280px;
+  float: left;
+}
+
+.rules {
   float: left;
 }
 
@@ -65,8 +90,8 @@ body {
   height: 300px;
   width: 300px;
   border-radius: 340px;
-  top: 140px;
-  left: 140px;
+  top: 130px;
+  left: 130px;
 }
 
 .inner-circle h2 {
@@ -79,17 +104,20 @@ body {
 
 .score {
   position: inherit;
-  left: 130px;
+  left: 120px;
   bottom: 5px;
 }
 
-p {
+.score p {
   font-weight: bold;
   font-size: 30px;
   border-radius: 3px;
-  width: 40px;
+  width: 60px;
   height: 40px;
   background-color: black;
   opacity: 0.8;
   color: red;
+}
+
+@media (max-width: 640px) {
 }
