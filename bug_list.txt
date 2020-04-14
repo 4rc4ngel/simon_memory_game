@@ -1,0 +1,8 @@
+De-buggin list
+
+1. Not Responsive on mobile device.
+2. When WIN is dsiplayed breaks out of element.
+3. Start button is obstructed by a div.
+4. Add rules slider.
+5. Seems to have bug in safari, sounds not playing correctly.
+
