@@ -1,3 +1,7 @@
+// iOS fix
+const AudioContext = window.AudioContext || window.webkitAudioContext;
+const audioCtx = new AudioContext();
+
 // Variables
 let on = false;
 let turn;
